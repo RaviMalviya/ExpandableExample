@@ -15,6 +15,7 @@
 		54ECB9211FF6149000DF2009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54ECB91F1FF6149000DF2009 /* LaunchScreen.storyboard */; };
 		54ECB92C1FF6149100DF2009 /* FAQExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECB92B1FF6149100DF2009 /* FAQExampleTests.swift */; };
 		54ECB9371FF6149100DF2009 /* FAQExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECB9361FF6149100DF2009 /* FAQExampleUITests.swift */; };
+		54ECB9481FF619CD00DF2009 /* FAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECB9461FF619CD00DF2009 /* FAQCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		54ECB9321FF6149100DF2009 /* FAQExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAQExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54ECB9361FF6149100DF2009 /* FAQExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQExampleUITests.swift; sourceTree = "<group>"; };
 		54ECB9381FF6149100DF2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54ECB9461FF619CD00DF2009 /* FAQCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		54ECB9121FF6149000DF2009 /* FAQExample */ = {
 			isa = PBXGroup;
 			children = (
+				54ECB9171FF6149000DF2009 /* Main.storyboard */,
 				54ECB9131FF6149000DF2009 /* AppDelegate.swift */,
 				54ECB9151FF6149000DF2009 /* ViewController.swift */,
-				54ECB9171FF6149000DF2009 /* Main.storyboard */,
+				54ECB9461FF619CD00DF2009 /* FAQCell.swift */,
 				54ECB91D1FF6149000DF2009 /* Assets.xcassets */,
 				54ECB91F1FF6149000DF2009 /* LaunchScreen.storyboard */,
 				54ECB9221FF6149000DF2009 /* Info.plist */,
@@ -265,6 +268,7 @@
 				54ECB9161FF6149000DF2009 /* ViewController.swift in Sources */,
 				54ECB9141FF6149000DF2009 /* AppDelegate.swift in Sources */,
 				54ECB91C1FF6149000DF2009 /* FAQExample.xcdatamodeld in Sources */,
+				54ECB9481FF619CD00DF2009 /* FAQCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCBF3NV26J;
 				INFOPLIST_FILE = FAQExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = some.FAQExample;
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCBF3NV26J;
 				INFOPLIST_FILE = FAQExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = some.FAQExample;
