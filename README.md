@@ -1,4 +1,4 @@
-# ExpandableExample
+# ExpandableExample in swift 4 update
 
 Expandable Table view cell with animation, in which cell expand using setting up priority.
 
